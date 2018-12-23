@@ -20,6 +20,9 @@ PODS:
   - Kingfisher (4.10.1)
   - Koloda (4.5.1):
     - pop (~> 1.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
   - Parse (1.17.2):
     - Parse/Core (= 1.17.2)
   - Parse/Core (1.17.2):
@@ -45,6 +48,10 @@ PODS:
   - SwiftyGif (4.2.0)
   - SwiftyJSON (4.2.0)
   - SwiftyUserDefaults (3.0.1)
+  - XCGLogger (6.1.0):
+    - XCGLogger/Core (= 6.1.0)
+  - XCGLogger/Core (6.1.0):
+    - ObjcExceptionBridging
 
 DEPENDENCIES:
   - BonMot
@@ -66,6 +73,7 @@ DEPENDENCIES:
   - SwiftyGif
   - SwiftyJSON
   - SwiftyUserDefaults
+  - XCGLogger
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -79,6 +87,7 @@ SPEC REPOS:
     - ImageSlideshow
     - Kingfisher
     - Koloda
+    - ObjcExceptionBridging
     - Parse
     - pop
     - PromiseKit
@@ -89,6 +98,7 @@ SPEC REPOS:
     - SwiftyGif
     - SwiftyJSON
     - SwiftyUserDefaults
+    - XCGLogger
 
 SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
@@ -101,6 +111,7 @@ SPEC CHECKSUMS:
   ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Koloda: fc08984dc013b4d5aff3bd7265a8874e6784b5ef
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PromiseKit: 453ddcc947fe7b302f3ef41882b81d31c554df7f
@@ -111,7 +122,8 @@ SPEC CHECKSUMS:
   SwiftyGif: a149bf84df23370592f3f075561ae02c8632a314
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: 1c6b0998bafeab07c69e7de9a8384105154b8c7c
+PODFILE CHECKSUM: c1cf9a83a8931a96795271304014c4d0e9183605
 
 COCOAPODS: 1.5.3
