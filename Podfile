@@ -26,8 +26,6 @@ target 'Paid2Party' do
      pod 'Eureka' #, '~> 3.0.0'
      pod 'Whisper' # ERROR, :git => 'https://github.com/jaimeagudo/Whisper', :branch => 'master'
      pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
-
-#    pod 'ChameleonFramework/Swift' ERROR # , :git => 'https://github.com/ViccAlexander/Chameleon.git' #, :branch => 'swift3'
      pod 'Dollar'
    #    pod 'STLocationRequest', '~> 1.3.3'
 #     pod 'STLocationRequest' ERROR, #:git => 'https://github.com/SvenTiigi/STLocationRequest.git', :branch => 'master'
@@ -38,7 +36,7 @@ target 'Paid2Party' do
      pod 'SwiftDate' #, '~> 4.0'
      pod 'BonMot'
 #   #    pod 'Font-Awesome-Swift', :git => 'https://github.com/Vaberer/Font-Awesome-Swift.git', :branch => 'master' # '~> 1.5.3'
-#     pod 'Font-Awesome-Swift'#, #'~> 1.6.1'
+     pod 'Font-Awesome-Swift'#, #'~> 1.6.1'
 #     pod 'Pulsator' # ERROR
      pod 'SCLAlertView'#, # :git => 'https://github.com/vikmeup/SCLAlertView-Swift.git', :branch => 'master'
      pod 'SwiftyGif'

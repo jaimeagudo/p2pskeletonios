@@ -17,6 +17,7 @@ PODS:
     - FBSDKCoreKit
   - FBSDKShareKit (4.39.0):
     - FBSDKCoreKit
+  - Font-Awesome-Swift (1.7.2)
   - ImageSlideshow (1.7.0):
     - ImageSlideshow/Core (= 1.7.0)
   - ImageSlideshow/Core (1.7.0)
@@ -68,6 +69,7 @@ DEPENDENCIES:
   - FBSDKCoreKit
   - FBSDKLoginKit
   - FBSDKShareKit
+  - Font-Awesome-Swift
   - ImageSlideshow
   - Kingfisher
   - Koloda
@@ -95,6 +97,7 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKLoginKit
     - FBSDKShareKit
+    - Font-Awesome-Swift
     - ImageSlideshow
     - Kingfisher
     - Koloda
@@ -136,6 +139,7 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 1e3981faefab8c88edfaa9eecd94aab02d99a9bc
   FBSDKLoginKit: 30ba5039a2c53d65a75103889bc2deebdacd5a1f
   FBSDKShareKit: 5a0021c30abb64df9eeba87351dd8a627874543b
+  Font-Awesome-Swift: 83ab9db365379ee6025167cec67bdc5d3226a811
   ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Koloda: fc08984dc013b4d5aff3bd7265a8874e6784b5ef
@@ -155,6 +159,6 @@ SPEC CHECKSUMS:
   Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: d510fc2fd452b7304af5074272f248edb6e70929
+PODFILE CHECKSUM: a28d26ad0523c735f7bce61e113869e9f2135b96
 
 COCOAPODS: 1.5.3
