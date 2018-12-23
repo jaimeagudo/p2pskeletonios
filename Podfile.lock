@@ -14,6 +14,10 @@ PODS:
     - FBSDKCoreKit
   - FBSDKShareKit (4.39.0):
     - FBSDKCoreKit
+  - ImageSlideshow (1.7.0):
+    - ImageSlideshow/Core (= 1.7.0)
+  - ImageSlideshow/Core (1.7.0)
+  - Kingfisher (4.10.1)
   - Parse (1.17.2):
     - Parse/Core (= 1.17.2)
   - Parse/Core (1.17.2):
@@ -35,6 +39,7 @@ PODS:
   - SwiftDate (5.0.13)
   - SwiftMoment (0.7)
   - SwiftyGif (4.2.0)
+  - SwiftyUserDefaults (3.0.1)
 
 DEPENDENCIES:
   - BonMot
@@ -43,6 +48,8 @@ DEPENDENCIES:
   - FBSDKCoreKit
   - FBSDKLoginKit
   - FBSDKShareKit
+  - ImageSlideshow
+  - Kingfisher
   - Parse
   - Parse/FacebookUtils
   - PromiseKit
@@ -50,6 +57,7 @@ DEPENDENCIES:
   - SwiftDate
   - SwiftMoment
   - SwiftyGif
+  - SwiftyUserDefaults
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -60,12 +68,15 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKLoginKit
     - FBSDKShareKit
+    - ImageSlideshow
+    - Kingfisher
     - Parse
     - PromiseKit
     - SCLAlertView
     - SwiftDate
     - SwiftMoment
     - SwiftyGif
+    - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
@@ -75,13 +86,16 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 1e3981faefab8c88edfaa9eecd94aab02d99a9bc
   FBSDKLoginKit: 30ba5039a2c53d65a75103889bc2deebdacd5a1f
   FBSDKShareKit: 5a0021c30abb64df9eeba87351dd8a627874543b
+  ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
   PromiseKit: 453ddcc947fe7b302f3ef41882b81d31c554df7f
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SwiftDate: f4aea5fa9dee812485f34041121a4cbde01b0dee
   SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
   SwiftyGif: a149bf84df23370592f3f075561ae02c8632a314
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
 
-PODFILE CHECKSUM: a3b96477cde3120872fc1aba5ffe186a15900bd4
+PODFILE CHECKSUM: 7d6549a8491826578c835e1ac59539d6fff23e4f
 
 COCOAPODS: 1.5.3

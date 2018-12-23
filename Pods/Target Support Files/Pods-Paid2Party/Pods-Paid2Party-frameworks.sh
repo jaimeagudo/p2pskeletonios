@@ -150,12 +150,15 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Parse/Parse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftMoment/SwiftMoment.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework"
@@ -165,12 +168,15 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Parse/Parse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftMoment/SwiftMoment.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
