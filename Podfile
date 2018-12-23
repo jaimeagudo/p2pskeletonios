@@ -37,7 +37,8 @@ target 'Paid2Party' do
      pod 'BonMot'
 #   #    pod 'Font-Awesome-Swift', :git => 'https://github.com/Vaberer/Font-Awesome-Swift.git', :branch => 'master' # '~> 1.5.3'
      pod 'Font-Awesome-Swift'#, #'~> 1.6.1'
-#     pod 'Pulsator' # ERROR
+     pod 'Pulsator', :git => 'https://github.com/shu223/Pulsator.git', :tag => '0.5.3'
+     #pod 'Pulsator' # ERROR
      pod 'SCLAlertView'#, # :git => 'https://github.com/vikmeup/SCLAlertView-Swift.git', :branch => 'master'
      pod 'SwiftyGif'
 #     pod 'Twinkle' # ERROR #,# '~> 0.2.0'

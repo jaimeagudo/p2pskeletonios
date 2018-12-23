@@ -45,6 +45,7 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (6.7.0):
     - PromiseKit/CorePromise
+  - Pulsator (0.5.3)
   - SCLAlertView (0.8)
   - SwiftDate (5.0.13)
   - SwiftEventBus (2.1.2)
@@ -76,6 +77,7 @@ DEPENDENCIES:
   - Parse
   - Parse/FacebookUtils
   - PromiseKit
+  - Pulsator (from `https://github.com/shu223/Pulsator.git`, tag `0.5.3`)
   - SCLAlertView
   - SwiftDate
   - SwiftEventBus
@@ -119,6 +121,9 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   ChameleonFramework:
     :git: https://github.com/ViccAlexander/Chameleon.git
+  Pulsator:
+    :git: https://github.com/shu223/Pulsator.git
+    :tag: 0.5.3
   SwiftLocation:
     :git: https://github.com/jaimeagudo/SwiftLocation.git
 
@@ -126,6 +131,9 @@ CHECKOUT OPTIONS:
   ChameleonFramework:
     :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
     :git: https://github.com/ViccAlexander/Chameleon.git
+  Pulsator:
+    :git: https://github.com/shu223/Pulsator.git
+    :tag: 0.5.3
   SwiftLocation:
     :commit: cdf10eb0ad1a277c67ccea55f3863cf496f5ea91
     :git: https://github.com/jaimeagudo/SwiftLocation.git
@@ -147,6 +155,7 @@ SPEC CHECKSUMS:
   Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PromiseKit: 453ddcc947fe7b302f3ef41882b81d31c554df7f
+  Pulsator: d58707c6827ec862cd89fd727424866795dabd24
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SwiftDate: f4aea5fa9dee812485f34041121a4cbde01b0dee
   SwiftEventBus: 9e8f6d8cff2826d66536ec367d17a47299478aa0
@@ -159,6 +168,6 @@ SPEC CHECKSUMS:
   Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: a28d26ad0523c735f7bce61e113869e9f2135b96
+PODFILE CHECKSUM: c25572d5f0abd3c5c38e5f2c36a2e5a4e92277f8
 
 COCOAPODS: 1.5.3
