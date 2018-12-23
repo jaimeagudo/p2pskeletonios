@@ -51,6 +51,7 @@ PODS:
   - SwiftyJSON (4.0.0)
   - SwiftyOnboard (1.3.8)
   - SwiftyUserDefaults (3.0.1)
+  - Whisper (6.0.2)
   - XCGLogger (6.1.0):
     - XCGLogger/Core (= 6.1.0)
   - XCGLogger/Core (6.1.0):
@@ -78,6 +79,7 @@ DEPENDENCIES:
   - SwiftyJSON (~> 4.0.0)
   - SwiftyOnboard
   - SwiftyUserDefaults
+  - Whisper
   - XCGLogger
 
 SPEC REPOS:
@@ -104,6 +106,7 @@ SPEC REPOS:
     - SwiftyJSON
     - SwiftyOnboard
     - SwiftyUserDefaults
+    - Whisper
     - XCGLogger
 
 EXTERNAL SOURCES:
@@ -139,8 +142,9 @@ SPEC CHECKSUMS:
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   SwiftyOnboard: de60e90c2af23dd61b01ec0c6a8d0be3370f857b
   SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: e9753207fd01667e7516844c74a5b00c68f80871
+PODFILE CHECKSUM: e1bff9b4a7ad8b9905273ddef2d8bcb263746114
 
 COCOAPODS: 1.5.3
