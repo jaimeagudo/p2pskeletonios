@@ -1,0 +1,6 @@
+framework module Pods_Paid2PartyUITests {
+  umbrella header "Pods-Paid2PartyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
