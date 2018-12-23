@@ -6,6 +6,9 @@ PODS:
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
   - BonMot (5.3)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
   - Dollar (7.1.0)
   - Eureka (4.3.1)
   - FBSDKCoreKit (4.39.0):
@@ -59,6 +62,7 @@ PODS:
 
 DEPENDENCIES:
   - BonMot
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
   - Dollar
   - Eureka
   - FBSDKCoreKit
@@ -110,10 +114,15 @@ SPEC REPOS:
     - XCGLogger
 
 EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
   SwiftLocation:
     :git: https://github.com/jaimeagudo/SwiftLocation.git
 
 CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
   SwiftLocation:
     :commit: cdf10eb0ad1a277c67ccea55f3863cf496f5ea91
     :git: https://github.com/jaimeagudo/SwiftLocation.git
@@ -121,6 +130,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   BonMot: 0104d1b4eda54f4a4b7393d6559539ef25498fbd
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Dollar: dc69a2997fa5df12ae7a91fec897963664c26750
   Eureka: 28ea296f06710f6745266b71f17862048941a32d
   FBSDKCoreKit: 1e3981faefab8c88edfaa9eecd94aab02d99a9bc
@@ -145,6 +155,6 @@ SPEC CHECKSUMS:
   Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: e1bff9b4a7ad8b9905273ddef2d8bcb263746114
+PODFILE CHECKSUM: d510fc2fd452b7304af5074272f248edb6e70929
 
 COCOAPODS: 1.5.3

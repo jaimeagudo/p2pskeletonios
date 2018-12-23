@@ -25,6 +25,8 @@ target 'Paid2Party' do
      pod 'SwiftyUserDefaults'
      pod 'Eureka' #, '~> 3.0.0'
      pod 'Whisper' # ERROR, :git => 'https://github.com/jaimeagudo/Whisper', :branch => 'master'
+     pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+
 #    pod 'ChameleonFramework/Swift' ERROR # , :git => 'https://github.com/ViccAlexander/Chameleon.git' #, :branch => 'swift3'
      pod 'Dollar'
    #    pod 'STLocationRequest', '~> 1.3.3'
