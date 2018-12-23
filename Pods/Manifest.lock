@@ -18,6 +18,8 @@ PODS:
     - ImageSlideshow/Core (= 1.7.0)
   - ImageSlideshow/Core (1.7.0)
   - Kingfisher (4.10.1)
+  - Koloda (4.5.1):
+    - pop (~> 1.0)
   - Parse (1.17.2):
     - Parse/Core (= 1.17.2)
   - Parse/Core (1.17.2):
@@ -26,6 +28,7 @@ PODS:
     - Bolts (~> 1.9)
     - FBSDKLoginKit (~> 4.33)
     - Parse/Core
+  - pop (1.0.12)
   - PromiseKit (6.7.0):
     - PromiseKit/CorePromise (= 6.7.0)
     - PromiseKit/Foundation (= 6.7.0)
@@ -40,6 +43,7 @@ PODS:
   - SwiftEventBus (2.1.2)
   - SwiftMoment (0.7)
   - SwiftyGif (4.2.0)
+  - SwiftyJSON (4.2.0)
   - SwiftyUserDefaults (3.0.1)
 
 DEPENDENCIES:
@@ -51,6 +55,7 @@ DEPENDENCIES:
   - FBSDKShareKit
   - ImageSlideshow
   - Kingfisher
+  - Koloda
   - Parse
   - Parse/FacebookUtils
   - PromiseKit
@@ -59,6 +64,7 @@ DEPENDENCIES:
   - SwiftEventBus
   - SwiftMoment
   - SwiftyGif
+  - SwiftyJSON
   - SwiftyUserDefaults
 
 SPEC REPOS:
@@ -72,13 +78,16 @@ SPEC REPOS:
     - FBSDKShareKit
     - ImageSlideshow
     - Kingfisher
+    - Koloda
     - Parse
+    - pop
     - PromiseKit
     - SCLAlertView
     - SwiftDate
     - SwiftEventBus
     - SwiftMoment
     - SwiftyGif
+    - SwiftyJSON
     - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
@@ -91,15 +100,18 @@ SPEC CHECKSUMS:
   FBSDKShareKit: 5a0021c30abb64df9eeba87351dd8a627874543b
   ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Koloda: fc08984dc013b4d5aff3bd7265a8874e6784b5ef
   Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PromiseKit: 453ddcc947fe7b302f3ef41882b81d31c554df7f
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SwiftDate: f4aea5fa9dee812485f34041121a4cbde01b0dee
   SwiftEventBus: 9e8f6d8cff2826d66536ec367d17a47299478aa0
   SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
   SwiftyGif: a149bf84df23370592f3f075561ae02c8632a314
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
 
-PODFILE CHECKSUM: f1d75c20ce1ca6572e729648ebb42fc838c3f4ab
+PODFILE CHECKSUM: 1c6b0998bafeab07c69e7de9a8384105154b8c7c
 
 COCOAPODS: 1.5.3
