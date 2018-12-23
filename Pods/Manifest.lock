@@ -46,6 +46,7 @@ PODS:
   - PromiseKit/UIKit (6.7.0):
     - PromiseKit/CorePromise
   - Pulsator (0.5.3)
+  - RevealingSplashView (0.6.0)
   - SCLAlertView (0.8)
   - SwiftDate (5.0.13)
   - SwiftEventBus (2.1.2)
@@ -78,6 +79,7 @@ DEPENDENCIES:
   - Parse/FacebookUtils
   - PromiseKit
   - Pulsator (from `https://github.com/shu223/Pulsator.git`, tag `0.5.3`)
+  - RevealingSplashView
   - SCLAlertView
   - SwiftDate
   - SwiftEventBus
@@ -107,6 +109,7 @@ SPEC REPOS:
     - Parse
     - pop
     - PromiseKit
+    - RevealingSplashView
     - SCLAlertView
     - SwiftDate
     - SwiftEventBus
@@ -156,6 +159,7 @@ SPEC CHECKSUMS:
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PromiseKit: 453ddcc947fe7b302f3ef41882b81d31c554df7f
   Pulsator: d58707c6827ec862cd89fd727424866795dabd24
+  RevealingSplashView: 40c5a770894459736acdc95655eeba0dd30ce91c
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SwiftDate: f4aea5fa9dee812485f34041121a4cbde01b0dee
   SwiftEventBus: 9e8f6d8cff2826d66536ec367d17a47299478aa0
@@ -168,6 +172,6 @@ SPEC CHECKSUMS:
   Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: c25572d5f0abd3c5c38e5f2c36a2e5a4e92277f8
+PODFILE CHECKSUM: 7127c00445a074d8d6124bb9a539987132249253
 
 COCOAPODS: 1.5.3

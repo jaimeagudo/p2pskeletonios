@@ -15,6 +15,7 @@ target 'Paid2Party' do
      pod 'FBSDKShareKit'
      pod 'PromiseKit'
 #   #    pod 'PromiseKit/Bolts'
+
 #     pod 'Fabric'
 #     pod 'Appsee'
 #     pod 'Crashlytics'
@@ -26,11 +27,9 @@ target 'Paid2Party' do
      pod 'Whisper' # Sv4
      pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git' #Sv3
      pod 'Dollar'
-   #    pod 'STLocationRequest', '~> 1.3.3'
-#     pod 'STLocationRequest' ERROR, #:git => 'https://github.com/SvenTiigi/STLocationRequest.git', :branch => 'master'
      pod 'SwiftLocation',  :git => 'https://github.com/jaimeagudo/SwiftLocation.git' # '~> 3.2.0'
      pod 'SwiftEventBus' #, :tag => '2.2.0', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
-#     pod 'RevealingSplashView', # '~> 0.2.0'
+
      pod 'Koloda'
      pod 'SwiftDate'
      pod 'BonMot'
@@ -38,9 +37,14 @@ target 'Paid2Party' do
      pod 'Pulsator', :git => 'https://github.com/shu223/Pulsator.git', :tag => '0.5.3' # Sv4
      pod 'SCLAlertView' # Sv4
      pod 'SwiftyGif'
-#     pod 'Twinkle' # ERROR #,# '~> 0.2.0'
+
      pod 'SwiftMoment'
      pod 'SwiftyOnboard'
+     pod 'RevealingSplashView' #, '~> 0.2.0'
+
+#     Not really critical
+#     pod 'STLocationRequest'
+#     pod 'Twinkle' '~> 0.4.0'
 
 
   target 'Paid2PartyTests' do
